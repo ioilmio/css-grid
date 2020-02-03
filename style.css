@@ -7,12 +7,12 @@
 }
 .container{
     border-radius: 15px;
-    /* margin: 0 1em 1em 1em; */
+    /* margin: 1em; */
     background-color: rgb(91, 241, 241);
     text-align: center;
     /* padding: 1em ; */
     display: grid;
-    gap: 1.5em;
+    gap: 0em;
     grid-template-columns: repeat(3,1fr);
     grid-template-areas: 
     "header header header"
@@ -27,9 +27,10 @@
     ;
 }
 .inner{
-    border: 0.5em solid whitesmoke;
+    border: 0.1em solid whitesmoke;
     border-radius: 15px;
-    padding: 2em;
+    padding: 0.5em;
+    margin:1em;
 }
 img{
     height: auto;
@@ -88,17 +89,21 @@ img{
     
     position: absolute;
     background-color: blueviolet;
-    bottom: 1.5em;
-    right: 1.5em;
-    font-size: 150%;
-    margin:1.5em;
-    padding:0.5em;
-    border-radius: 15px;
+    /* bottom: 2rem; */
+    /* right: 3rem; */
+    /* font-size: 100%; */
+    /* margin:3em; */
+    /* padding:0.5em; */
+    /* border-radius: 15px; */
+    bottom: 20px;
+    right:20px;
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
 #nove{
     position: relative;
-    background-color: red;
+    background-color: rgb(133, 39, 39);
     grid-area: footer;
 
 }
