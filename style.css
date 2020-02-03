@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
+}
+.container{
+    border-radius: 15px;
+    margin: 0 1em 1em 1em;
+    background-color: rgb(91, 241, 241);
+    text-align: center;
+    padding: 1em ;
+    display: grid;
+    gap: 1.5em;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: 
+    "header header header"
+    "..... ..... right"
+    "menu menu menu"
+    "left .... ..... "
+    "middle middle middle"
+    ".... .... sidebar"
+    "section-one section-one section-one"
+    "image image image"
+    "footer footer footer"
+    ;
+}
+.inner{
+    border: 0.5em solid whitesmoke;
+    border-radius: 15px;
+    padding: 2em;
+}
+img{
+    height: auto;
+    max-width: 100%;
+}
+#uno{
+    position: relative;
+    background-color: rgb(247, 90, 90);    
+    grid-area: header;
+}
+
+#due>input{
+    position: sticky;
+    background-color: rgb(247, 235, 80);
+    grid-area: menu;
+    display: block;
+}
+
+#tre{
+    position: relative;
+    background-color: rgb(51, 255, 0);
+    grid-area: right ;
+
+}
+#quattro{
+    position: relative;
+    background-color: rgb(115, 114, 187);
+    grid-area: left;
+
+}
+#cinque{
+    position: relative;
+    background-color: rgb(255, 0, 242);
+    grid-area: middle;
+
+}
+#sei{
+    position: relative;
+    background-color: rgb(157, 255, 0);
+    grid-area: sidebar;
+
+}
+#sette{
+    position: relative;
+    background-color: rgb(68, 0, 255);
+    grid-area: section-one;
+
+}
+#otto{
+    position: relative;
+    background-color: rgb(0, 255, 157);
+    grid-area: image;
+
+}
+#nove{
+    position: relative;
+    background-color: red;
+    grid-area: footer;
+
+}
