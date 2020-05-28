@@ -1,2 +1,2 @@
 # css-grid
-mixed layout
+A css-grid responsive web layout exercise.
